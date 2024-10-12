@@ -1,0 +1,44 @@
+section{
+margin-top:30px;
+margin-bottom:30px;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 15px;
+}
+#main{
+width:70%;
+background-color:green;
+padding-left:8px;
+margin-left:22px;
+border:1px solid #252525;
+height:250px;
+position:relative;
+left:10%;
+border-radius:5px;
+cursor:pointer;
+}
+.sub{
+border:1px solid #252525;
+height:150px;
+background:no-repeat;  
+background-color:white;
+background-size:100% 100%;
+margin-right:7px;
+position:relative;
+top:8%;
+display: flex;
+justify-content:space-between;
+flex-direction:column;
+border-radius:2px;
+}
+.moviename{
+width:90%;
+position:absolute;
+color:white;
+font-weight:bolder;
+background-color:green;
+height:35px;
+bottom:20px;
+
+}
