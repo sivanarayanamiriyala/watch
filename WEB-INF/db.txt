@@ -1,0 +1,13 @@
+create database watch;
+use watch;
+create table movies(number int(10) primary key AUTO_INCREMENT,name varchar(30) ,year date,Directedby varchar(30),cast varchar(50),genres varchar(30),photoname varchar(30),filename varchar(30),language varchar(20),About varchar(200),viewcount int(10) default 0);
+
+create table admins(username varchar(30) primary key,password varchar(30) not null,name varchar(30) not null);
+
+insert into movies(name,year,Directedby,cast,genres,photoname,filename,language,About,viewcount) values("adipurush","2023-06-16","om raut","prabhas","action","adipurush.jpg","adipursh.mp4","telugu","Ramayanam movie",0);
+
+
+insert into movies(name,year,Directedby,cast,genres,photoname,filename,language,About,viewcount) values("KGF Chapter-2","2022-04-14","Prasanth Neel","Yash","action","kgf2.jpg","KGF Chapter.mp4","telugu","kgf movie",0);
+
+insert into movies(name,year,Directedby,cast,genres,photoname,filename,language,About,viewcount) values("Pal Pal Dil Ke Paas","2019-09-20","Sunny Deol","Bobby Doel","lovestory","palpaldilkepaas.jpg","palpaldilkepaas.mp4","hindi","pal pal dil ke paas movie",0);
+ 
